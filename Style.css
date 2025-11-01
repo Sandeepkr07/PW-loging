@@ -1,0 +1,50 @@
+/* Basic setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa; 
+    padding-top: 60px; /* Header ki height ke barabar padding, taaki content header ke peeche na chhupe */
+}
+
+/* Navbar ki styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Cheezon ko alag-alag kone mein rakhega */
+    align-items: center;            /* Sabko vertically center mein rakhega */
+    padding: 10px 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Halka sa shadow neeche */
+    
+    /* Header ko upar fix karne ke liye */
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    box-sizing: border-box; /* Padding ko width mein include karne ke liye */
+    height: 60px; /* Header ko ek fix height di */
+}
+
+/* Menu Icon */
+.menu-icon {
+    font-size: 28px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo {
+    height: 40px; /* Logo ki height */
+    display: block;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #6a5be2; /* Screenshot jaisa purple color */
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none; /* Link ka underline hatane ke liye */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
